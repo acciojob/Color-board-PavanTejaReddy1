@@ -2,11 +2,11 @@ let container = document.querySelector(".container");
 
 for(let i=1; i<=800; i++) {
 	let box = document.createElement("div");
-	box.className = "box";
+	box.className = "square";
 	container.appendChild(box);
 }
 
-let boxes = document.querySelectorAll(".box");
+let boxes = document.querySelectorAll(".square");
 
 for (let box of boxes) {
 	box.addEventListener("mouseover", getColor);

@@ -17,7 +17,7 @@ body {
 	grid-template-rows: repeat(20, 10px);
 }
 
-.box {
+.square {
 	background-color: #1d1d1d;
 	cursor: pointer;
 	transition: background-color 1s ease;
